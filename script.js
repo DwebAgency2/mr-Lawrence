@@ -2,6 +2,50 @@
    Resume section tabs and tab contents
 ===================================================== */
 
+const resumeTab = document.querySelector(".resume-tabs");
+
+const resumePortfolioTabBtns = resumeTab.querySelectorAll(".tab-btn");
+
+const resumeTabContents = document.querySelectorAll(".resume-tab-content");
+
+
+var resumeTabNav = function(resumeTabClick){
+
+   //this will remove active class from tabs not clicked
+   resumeTabContents.forEach((resumeTabContents) => {
+   resumeTabContents.style.display = "none";
+   resumeTabContents.classList.remove("active");
+   })
+
+
+   resumePortfolioTabBtns.forEach((resumePortfolioTabBtns) => {
+   resumePortfolioTabBtns.classList.remove("active");
+   })
+
+
+
+   //this adds the active class to the tab content that is clicked.
+   resumeTabContents[resumeTabClick].style.display = "flex";
+
+
+   setTimeout(() => {
+      resumeTabContents[resumeTabClick].classList.add(".active");
+   }, 100)
+
+
+   resumeTabContents[resumeTabClick].classList.add("active");
+   resumePortfolioTabBtns[resumeTabClick].classList.add("active");
+}
+
+
+resumePortfolioTabBtns.forEach((resumePortfolioTabBtns, i)=>{
+   resumePortfolioTabBtns.addEventListener("click", () => {
+      resumeTabNav(i);
+   })
+})
+
+
+
 /* =====================================================
    Service modal open/close function
 ===================================================== */
