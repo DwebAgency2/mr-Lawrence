@@ -1056,6 +1056,7 @@ overflow: hidden;
   margin-left: 3px;
 }
 
+/*model information begins*/
 
 .service-modal-backdrop{
   z-index: var(--z-overlay);
@@ -1070,7 +1071,17 @@ overflow: hidden;
   justify-content: center;
   align-items: center;
   overflow: auto;
+  display: none;
+  opacity: 0;
+  transition: opacity .3s;
+ 
 }
+.service-modal-backdrop.active{
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+
 
 .service-modal{
   position: relative;
@@ -1082,7 +1093,17 @@ overflow: hidden;
   border-radius: 15px;
   border-bottom: 5px solid var(--primary-color);
   overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
+  transition: transform .5s, opacity .5s;
   }
+
+.service-modal.active{
+  transform: scale(1);
+  opacity: 1;
+  transition: transform .5s, opacity .5s;
+  
+}
 
   .modal-close-btn{
     position: absolute;
