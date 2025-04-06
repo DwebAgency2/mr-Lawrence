@@ -150,7 +150,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Open/Close Portfolio modals.
 
+const portfolioCardsWithModals = document.querySelectorAll(".portfolio-container .card-with-modal")
 
+
+portfolioCardsWithModals.forEach((portfolioCardsWithModal) => {
+   const portfolioCard = portfolioCardsWithModal.querySelector(".portfolio-card");
+
+   const portfolioBackdrop = portfolioCardsWithModal.querySelector(".portfolio-modal-backdrop");
+
+
+   const portfolioModal = portfolioCardsWithModal.querySelector(".portfolio-modal");
+
+   
+   const modalCloseBtn = portfolioCardsWithModal.querySelector(".modal-close-btn");
+
+
+
+   portfolioCard.addEventListener("click", () => {
+      portfolioBackdrop.style.display = "flex";
+
+      setTimeout(() => {
+         portfolioBackdrop.classList.add("active");
+      }, 300)
+     
+
+      setTimeout(() => {
+         portfolioModal.classList.add("active");
+      }, 300)
+      
+
+   })
+
+
+   modalCloseBtn.addEventListener("click", () => {
+      
+
+      setTimeout(() => {
+         portfolioBackdrop.style.display = "none";
+      }, 500)
+     
+
+      setTimeout(() => {
+         portfolioBackdrop.classList.remove("active");
+
+         portfolioModal.classList.remove("active");
+      }, 100)
+   })
+
+})
 
 
 /* =====================================================
