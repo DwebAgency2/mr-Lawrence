@@ -97,13 +97,61 @@ serviceCardWithModals.forEach((serviceCardWithModal) => {
 
 
 
+
 /* =====================================================
    Portfolio modals, tabs and cards
 ===================================================== */
 
 // Filter portfolio cards according to portfolio tabs.
 
+document.addEventListener("DOMContentLoaded", () => {
+   const portfolioTabs = document.querySelector(".portfolio-tabs");
+
+   const portfolioTabBtns = portfolioTabs.querySelectorAll(".tab-btn")
+
+   const cardWithModals = document.querySelectorAll(".portfolio-container .card-with-modal")
+
+
+   portfolioTabBtns.forEach((tabBtn) => {
+      tabBtn.addEventListener("click", () => {
+         const Filter = tabBtn.getAttribute("data-filter");
+
+
+         cardWithModals.forEach((cardWithModals) => {
+            if(Filter === "all" || cardWithModals.classList.contains(Filter)) {
+               
+               cardWithModals.classList.remove("hidden");
+
+
+               setTimeout(() => {
+                  cardWithModals.style.opacity = "1";
+                  cardWithModals.style.transition = ".5s ease";
+               },1)
+
+            }
+            else {
+               
+               cardWithModals.classList.add("hidden")
+
+               setTimeout(() => {
+                  cardWithModals.style.opacity = "0";
+                  cardWithModals.style.transition = ".5s ease";
+               },1)
+            }
+         })
+
+         //this will add active class to the clicked tab button
+
+         portfolioTabBtns.forEach((tabBtn) => tabBtn.classList.remove("active"));
+         tabBtn.classList.add("active")
+      })
+   })
+})
+
 // Open/Close Portfolio modals.
+
+
+
 
 /* =====================================================
    Testimonial Swiper

@@ -8,7 +8,7 @@
   <!--========== Swiper CSS ==========-->
 
   <!--========== Main style sheet ==========-->
-  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="style.css">
 
   <!--========== Remixicon ==========-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
@@ -816,7 +816,7 @@
   <!--========== Portfolio ==========-->
 
 
-  <section class="sue-section nav-menu-section" id="id">
+  <section class="sue-section nav-menu-section" id="portfolio">
 
     <div class="sue-container sub-sub-container">
 
@@ -832,11 +832,11 @@
 
 
         <div class="portfolio-tabs">
-          <a class="tab-btn active">ALL</a>
-          <a class="tab-btn">Web Design</a>
-          <a class="tab-btn">UX/UI Design</a>
-          <a class="tab-btn">Photoshop</a>
-          <a class="tab-btn">Template</a>
+          <a class="tab-btn active" data-filter="all" >ALL</a>
+          <a class="tab-btn" data-filter="Web-design" >Web Design</a>
+          <a class="tab-btn" data-filter="ui-design" >UX/UI Design</a>
+          <a class="tab-btn" data-filter="photoshop" >Photoshop</a>
+          <a class="tab-btn" data-filter="template" >Template</a>
         </div>
 
 
@@ -846,7 +846,7 @@
 
 
             <!---MODEL 01-->
-            <div class="card-with-modal">
+            <div class="card-with-modal Web-design">
 
               <div class="portfolio-card">
 
@@ -858,9 +858,30 @@
 
                   <span>Web Design</span>
                   <h4>Dynamic</h4>
+
                   <i class="ri-arrow-right-up-line"></i>
                 </div>
 
+              </div>
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/project1.jpg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
               </div>
 
 
@@ -868,7 +889,7 @@
 
 
             <!-----MODAL 02-->
-            <div class="card-with-modal">
+            <div class="card-with-modal ui-design">
 
               <div class="portfolio-card">
 
@@ -886,11 +907,32 @@
               </div>
 
 
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/project2.jpg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
 
             <!-----MODAL 03-->
-            <div class="card-with-modal">
+            <div class="card-with-modal template">
 
               <div class="portfolio-card">
 
@@ -908,11 +950,32 @@
               </div>
 
 
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/project3.jpg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
 
             <!-----MODAL 04-->
-            <div class="card-with-modal">
+            <div class="card-with-modal photoshop">
 
               <div class="portfolio-card">
 
@@ -930,11 +993,32 @@
               </div>
 
 
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/project4.jpg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
 
             <!-----MODAL 05-->
-            <div class="card-with-modal">
+            <div class="card-with-modal Web-design">
 
               <div class="portfolio-card">
 
@@ -952,12 +1036,33 @@
               </div>
 
 
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/project5.jpg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
 
 
             <!-----MODAL 06-->
-            <div class="card-with-modal">
+            <div class="card-with-modal template">
 
               <div class="portfolio-card">
 
@@ -975,13 +1080,34 @@
               </div>
 
 
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/project6.jpg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
 
 
             <!-----MODAL 07-->
 
-            <div class="card-with-modal">
+            <div class="card-with-modal ui-design">
 
               <div class="portfolio-card">
 
@@ -999,12 +1125,33 @@
               </div>
 
 
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/project7.jpg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
 
 
             <!-----MODAL 08-->
-            <div class="card-with-modal">
+            <div class="card-with-modal  Web-design">
 
               <div class="portfolio-card">
 
@@ -1022,11 +1169,34 @@
               </div>
 
 
+
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/project8.jpg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
 
             <!-----MODAL 09-->
-            <div class="card-with-modal">
+            <div class="card-with-modal  Web-design">
 
               <div class="portfolio-card">
 
@@ -1041,6 +1211,27 @@
                   <i class="ri-arrow-right-up-line"></i>
                 </div>
 
+              </div>
+
+
+              <div class="portfolio-modal-backdrop">
+                <div class="portfolio-modal">
+
+                  <a class="modal-close-btn"<i class="ri-close-line"></i>></a>
+
+                  <div class="modal-content">
+                    <div class="modal-img">
+                      <img src="./assets/service-1.jpeg" alt="project 1">
+                    </div>
+
+                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+
+                  </div>
+                </div>
               </div>
 
 
