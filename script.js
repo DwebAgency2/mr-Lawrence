@@ -318,14 +318,65 @@ menuShowBtn.addEventListener("click", () => {
    To-top-button with scroll indicator bar
 ===================================================== */
 
+window.addEventListener("scroll", () => {
+   const toTopBtn = document.querySelector(".to-top-btn")
 
+
+   toTopBtn.classList.toggle("active", window.scrollY > 0);
+
+   //scroll indicator bar
+
+   const scrollIndicatorBar = document.querySelector(".scroll-indicator-bar");
+
+   const pageScroll = document.body.scrollTop || document.documentElement.scrollTop;
+
+   const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+   const scrollValue = (pageScroll / height) * 100;
+
+   scrollIndicatorBar.style.height = scrollValue + "%"
+})
 
 
 /* =====================================================
    Customized cursor on mousemove
 ===================================================== */
 
+const cursor = document.querySelector(".cursor")
+
+const cursorDot = document.querySelector(".cursor-dot")
+
+const cursorCircle = document.querySelector(".cursor-circle")
+
+document.addEventListener("mousemove", (e) => {
+   let x = e.clientX;
+   let y = e.clientY;
+
+   cursorDot.style.top = y + "px";
+   cursorDot.style.left = x + "px";
+
+   cursorCircle.style.top = y + "px"
+   cursorCircle.style.left = x + "px"
+})
+
 // Cursor effects on hover website elements.
+
+const cursorHoverLinks = document.querySelectorAll("body a, .theme-btn, .sue-main-btn, .portfolio-card, .swiper-button-next, .swiper-button-prev, .swiper-pagination-bullet, .service-card, .contact-social-links li, .contact-form, .submit-btn, .menu-show-btn, .menu-hide-btn") 
+
+cursorHoverLinks.forEach((cursorHoverLink) => {
+   cursorHoverLink.addEventListener("mouseover", () => {
+      cursorDot.classList.add("large")
+      cursorCircle.style.display = "none"
+   })
+})
+
+
+cursorHoverLinks.forEach((cursorHoverLink) => {
+   cursorHoverLink.addEventListener("mouseout", () => {
+      cursorDot.classList.remove("large")
+      cursorCircle.style.display = "block"
+   })
+})
 
 /* =====================================================
    Website dark/light theme
@@ -333,8 +384,38 @@ menuShowBtn.addEventListener("click", () => {
 
 // Change theme and save current theme on click the theme button.
 
+const themeBtn = document.querySelector(".theme-btn")
+
+themeBtn.addEventListener("click", () => {
+   //change theme icon and theme button on click
+   themeBtn.classList.toggle("active-sun-icon");
+
+   document.body.classList.toggle("light-theme");
+
+   //save theme icon and theme on click theme button
+
+   const getCurrentIcon = () => themeBtn.classList.contains("active-sun-icon") ? "sun" : "moon";
+
+   const getCurrentTheme = () => document.body.classList.contains("light-theme") ? "light" : "dark";
+
+   localStorage.setItem("sue-saved-icon", getCurrentIcon());
+
+   localStorage.setItem("sue-saved-theme", getCurrentTheme());
+   
+})
+
 // Get saved theme icon and theme on document loaded.
 
+const savedIcon = localStorage.getItem("sue-saved-icon");
+
+const savedTheme = localStorage.getItem("sue-saved-theme")
+
+document.addEventListener("DOMContentLoaded", () => {
+   themeBtn.classList[savedIcon === "sun" ? "add" : "remove"]("active-sun-icon");
+
+
+   document.body.classList[savedTheme === "light" ? "add" : "remove"]("light-theme")
+})
 /* =====================================================
    ScrollReveal JS animations
 ===================================================== */
