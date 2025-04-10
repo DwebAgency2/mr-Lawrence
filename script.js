@@ -222,7 +222,44 @@ var swiper = new Swiper(".sue-client-swiper", {
    Send/Receive emails from contact form - EmailJS
 ===================================================== */
 
+(function() {
+   // https://dashboard.emailjs.com/admin/account
+   emailjs.init({
+     publicKey: "zXUKx83F1kt6rx10s",
+   });
+})();
 
+
+sueContactForm = document.getElementById("sue-contact-form");
+
+sueContactFormAlert = document.querySelector(".sue-contact-form-alert");
+
+
+sueContactForm.addEventListener('submit', function(event) {
+   event.preventDefault();
+   // these IDs from the previous steps
+   emailjs.sendForm('service_7bu003g', 'template_wlpt2bw', '#sue-contact-form', this)
+       .then(() => {
+           //console.log('SUCCESS!');
+           sueContactFormAlert.innerHTML = "<span>Your Message was sent successfully!</span><i class='ri-checkbox-circle-fill'></i>"
+
+           sueContactForm.reset();
+
+           setTimeout(() => {
+            sueContactFormAlert.innerHTML = "";
+           }, 5000)
+           
+       }, (error) => {
+           //console.log('FAILED...', error);
+           sueContactFormAlert.innerHTML = "<span>Message was not sent!</span><i class='ri-error-warning-fill'></i>"
+
+           setTimeout(() => {
+            sueContactFormAlert.innerHTML = "";
+           }, 5000)
+
+           sueContactForm.title = "error!";
+       });
+});
 
 
 /* =====================================================
