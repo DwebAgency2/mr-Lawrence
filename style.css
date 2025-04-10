@@ -1751,6 +1751,10 @@ overflow: hidden;
   text-transform: uppercase;
 }
 
+.contact-method a span {
+  cursor: pointer;
+}
+
 .contact-method h4{
   color: var(--color-02);
   font-size: var(--base-font-size);
