@@ -531,7 +531,7 @@ ScrollReveal().reveal('.about-img', { delay: 700, origin: 'bottom' });
 
 ScrollReveal().reveal('.about-info, .sue-footer, .sue-logo', { delay: 300, origin: 'bottom' });
 
-ScrollReveal().reveal('.pro-card, .sue-main-btn, .about-buttons,.resume-tabs, .tab-btn, .portfolio-tabs, .tab-btn', { delay: 500, origin: 'right', interval: 200 });
+ScrollReveal().reveal('.pro-card, .sue-main-btn, .about-buttons, .resume-tabs, .tab-btn, .portfolio-tabs, .tab-btn', { delay: 500, origin: 'right', interval: 200 });
 
 ScrollReveal().reveal('#resume, .section-content', { delay: 700, origin: 'bottom' });
 
