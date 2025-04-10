@@ -525,11 +525,17 @@ ScrollReveal().reveal('.avatar-img', { delay: 100, origin: 'top' });
 
 ScrollReveal().reveal('.avatar-info, .section-title', { delay: 300, origin: 'top' });
 
-ScrollReveal().reveal('.home-social, .home-scroll-btn, .copy-right', { delay: 600, origin: 'bottom' });
+ScrollReveal().reveal('.home-social, .home-scroll-btn, .copy-right,', { delay: 600, origin: 'bottom' });
+
+ScrollReveal().reveal('.sue-logo', {
+   delay: 600,
+   origin: 'bottom',
+   reset: false // Logo will stay after animation
+ });
 
 ScrollReveal().reveal('.about-img', { delay: 700, origin: 'bottom' });
 
-ScrollReveal().reveal('.about-info, .sue-footer, .sue-logo', { delay: 300, origin: 'bottom' });
+ScrollReveal().reveal('.about-info, .sue-footer', { delay: 300, origin: 'bottom' });
 
 ScrollReveal().reveal('.pro-card, .sue-main-btn, .about-buttons, .resume-tabs, .tab-btn, .portfolio-tabs, .tab-btn', { delay: 500, origin: 'right', interval: 200 });
 
