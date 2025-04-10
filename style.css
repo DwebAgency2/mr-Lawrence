@@ -2287,6 +2287,12 @@ overflow: hidden;
       column-gap: 15px;
     }
 
+   
+
+    .sue-logo a span{
+      font-size: var(--h4-font-size);
+    }
+
     .home-container .sue-wrapper{
       flex-direction: column-reverse;
     }
