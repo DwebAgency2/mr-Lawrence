@@ -1,1628 +1,1591 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Design a Responsive Modern Personal Portfolio Website - Html, Css & Javascript</title>
-  
-  <!--========== Swiper CSS ==========-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr Lawrence</title>
 
-  <link rel="stylesheet" href="/swiper-bundle.min.css">
+    <link rel="icon" href="./assets/favicon.png" type="image/png" />
 
-  <!--========== Main style sheet ==========-->
- <link rel="stylesheet" href="style.css">
+    <!--========== Swiper CSS ==========-->
 
-  <!--========== Remixicon ==========-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
-  
-  <!--========== ScrollReveal JS ==========-->
-  
-  
-  
-</head>
-<body>
+    <link rel="stylesheet" href="/swiper-bundle.min.css" />
 
-  <!--========== Customized cursor ==========-->
+    <!--========== Main style sheet ==========-->
+    <link rel="stylesheet" href="style.css" />
 
-  <div class="cursor">
-    <div class="cursor-dot"></div>
+    <!--========== Remixicon ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
 
-    <div class="cursor-circle"></div>
-    
-  </div>
+    <!--========== ScrollReveal JS ==========-->
+  </head>
+  <body>
+    <!--========== Customized cursor ==========-->
 
-  <!--========== To top button with scroll indicator bar ==========-->
-  <div class="to-top-btn">
-    <a href="#home">
-      <span>To Top</span>
-    </a>
+    <div class="cursor">
+      <div class="cursor-dot"></div>
 
-    <div class="scroll-indicator-bar"></div>
-  </div>
+      <div class="cursor-circle"></div>
+    </div>
 
-  <!--========== Header ==========-->
+    <!--========== To top button with scroll indicator bar ==========-->
+    <div class="to-top-btn">
+      <a href="#home">
+        <span>To Top</span>
+      </a>
 
-  <header class="sue-header">
+      <div class="scroll-indicator-bar"></div>
+    </div>
 
-    <div class="sue-container">
+    <!--========== Header ==========-->
 
-      <div class="inner">
-
-        <div class="sue-logo">
-          <a href="#"><span>Sue</span></a>
-        </div>
-
-        <div class="header-btns">
-
-          <div class="sue-main-btn border-btn lets-talk-btn">
-            <a href="#contact">Let's Talk</a>
+    <header class="sue-header">
+      <div class="sue-container">
+        <div class="inner">
+          <div class="sue-logo">
+            <a href="#"><span>Lawrence</span></a>
           </div>
 
-          <a href="#contact" class="lets-talk-icon">
-            <i class="ri-chat-1-fill"></i>
-          </a>
+          <div class="header-btns">
+            <div class="sue-main-btn border-btn lets-talk-btn">
+              <a href="#contact">Let's Talk</a>
+            </div>
 
-          <div class="theme-btn">
-            <i class="ri-sun-fill sun-icon" ></i>
-
-            <i class="ri-moon-fill moon-icon"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!--========== Bottom navigation menu ==========-->
-
-  <div class="bottom-nav-container">
-
-    <div class="bottom-nav">
-
-      <div class="bottom-nav-inner">
-        <i class="ri-arrow-left-down-fill menu-hide-btn"></i>
-
-        <ul class="menu">
-
-          <li class="menu-item"><a href="#home" class="current">
-            <i class="ri-home-line"></i>
-            <span>Home</span>
-          </a></li>
-
-
-          <li class="menu-item"><a href="#about" >
-            <i class="ri-user-line"></i>
-            <span>About</span>
-          </a></li>
-
-
-          <li class="menu-item"><a href="#resume" >
-            <i class="ri-quote-text"></i>
-            <span>Resume</span>
-          </a></li>
-
-
-          <li class="menu-item"><a href="#service" >
-            <i class="ri-service-line"></i>
-            <span>Sevices</span>
-          </a></li>
-
-          
-          <li class="menu-item"><a href="#portfolio" >
-            <i class="ri-briefcase-line"></i>
-            <span>Portfolio</span>
-          </a></li>
-
-          <li class="menu-item"><a href="#contact" >
-            <i class="ri-chat-1-line"></i>
-            <span>Contact</span>
-          </a></li>
-
-         
-
-
-
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="menu-show-btn">
-      <div class="bar-01"></div>
-      <div class="bar-02"></div>
-    </div>
-
-  </div>
-
-  <!--========== Home ==========-->
-
-  <section class="sue-section nav-menu-section" id="home">
-
-    <div class="sue-container home-container">
-
-      <div class="sue-wrapper">
-
-        <div class="home-social">
-
-          <span>Follow On</span>
-
-          <div class="social-line"></div>
-
-          <ul class="social-icons">
-
-            <li><a href="#">
-              <i class="ri-facebook-circle-fill"></i>
-            </a></li>
-
-            <li><a href="#">
-              <i class="ri-twitter-x-line"></i>
-            </a></li>
-
-            <li><a href="#">
-              <i class="ri-linkedin-fill"></i>
-            </a></li>
-
-          </ul>
-        </div>
-
-        <div class="avatar-container">
-
-          <div class="sue-main-btn fill-btn hire-btn-01">
-
-            <a href="#">
-              Hire Me <i class="ri-user-follow-line"></i>
+            <a href="#contact" class="lets-talk-icon">
+              <i class="ri-chat-1-fill"></i>
             </a>
 
-          </div>
+            <div class="theme-btn">
+              <i class="ri-sun-fill sun-icon"></i>
 
-          <div class="avatar-img">
-            <img src="./assets/portrait.jpg" alt="image">
-          </div>
-
-          <div class="avatar-info">
-
-            <div class="text-content">
-
-              <h4 class="hello-text">Hello, I'm</h4>
-
-              <h1 class="my-name">Sue Ayers</h1>
-              <p class="what-i-do">
-                A web Designer & Developer
-              </p>
-
+              <i class="ri-moon-fill moon-icon"></i>
             </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-            <div class="sue-main-btn fill-btn hire-btn-02">
+    <!--========== Bottom navigation menu ==========-->
 
-              <a href="#">
-                Hire Me <i class="ri-user-follow-line"></i>
+    <div class="bottom-nav-container">
+      <div class="bottom-nav">
+        <div class="bottom-nav-inner">
+          <i class="ri-arrow-left-down-fill menu-hide-btn"></i>
+
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#home" class="current">
+                <i class="ri-home-line"></i>
+                <span>Home</span>
               </a>
-              
-            </div>
+            </li>
 
-          </div>
+            <li class="menu-item">
+              <a href="#about">
+                <i class="ri-user-line"></i>
+                <span>About</span>
+              </a>
+            </li>
 
+            <li class="menu-item">
+              <a href="#resume">
+                <i class="ri-quote-text"></i>
+                <span>Resume</span>
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a href="#service">
+                <i class="ri-service-line"></i>
+                <span>Sevices</span>
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a href="#portfolio">
+                <i class="ri-briefcase-line"></i>
+                <span>Portfolio</span>
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a href="#contact">
+                <i class="ri-chat-1-line"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <a href="#about" class="home-scroll-btn">
-          <i class="ri-mouse-line mouse-icon"></i>
-          <div>Scroll Down</div>
-          <i class="ri-arrow-down-double-line arrow-icon"></i>
-        </a>
-
       </div>
 
-    </div>
-
-  </section>
-
-  <!--========== About Me ==========-->
-
-  <section class="sue-section nav-menu-section" id="about">
-
-    <div class="sue-container sub-sub-container">
-
-      <div class="sue-wrapper">
-       
-
-        <div class="section-title about-title">
-          <h3>About Me</h3>
-          <p>What i do</p>
-        </div>
-
-        <div class="section-content">
-
-          <div class="about-img">
-            <img src="./assets/portrait.jpg" alt="about me">
-          </div>
-
-          <div class="about-details">
-
-            <div class="about-info">
-
-              <h4 class="iam">I'm a web Designer & Developer</h4>
-
-
-              <p class="about-description">I'm a new york, US based product designer with a focus on web design,UI/UX design,illustration,a visual development. I have diverse range of experience having worked across various fields and industry. <br>with 07 years experience as a professional web designer, I have acquired the skills and knowledge necessary to make your project a success</p>
-
-            </div>
-
-            <div class="pro-list">
-
-              <div class="pro-card">
-
-                <span>07</span>
-
-                <p>Years of Experience</p>
-
-              </div>
-
-              <div class="pro-card">
-
-                <span>1.2k</span>
-
-                <p>Completed Projects</p>
-                
-              </div>
-
-              <div class="pro-card">
-
-                <span>1k</span>
-
-                <p>Satisfied Customers</p>
-                
-              </div>
-
-            </div>
-
-            <div class="about-buttons">
-
-              <div class="sue-main-btn fill-btn">
-
-                <a href="#">Hire Me <i class="ri-user-follow-line"></i></a>
-
-              </div>
-
-              <div class="sue-main-btn border-btn">
-                <a href="#" download>Resume CV</a>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
+      <div class="menu-show-btn">
+        <div class="bar-01"></div>
+        <div class="bar-02"></div>
       </div>
     </div>
 
-
-  </section>
-
-  <!--========== My Resume ==========-->
-
-  <section class="sue-section nav-menu-section" id="resume">
-
-    <div class="sue-container sub-sub-container">
-
-      <div class="sue-wrapper">
-
-        <div class="section-title">
-
-          <h3>My Resume</h3>
-
-          <p>Combination of Skills & Experiences</p>
-
-        </div>
-
-        <div class="resume-tabs">
-
-          <a  class="tab-btn active" > 
-            <i class="ri-graduation-cap-line"></i>
-            Education
-          </a>
-
-          <a  class="tab-btn">
-            <i class="ri-sparkling-line"></i>
-            Experience
-          </a>
-
-
-          <a  class="tab-btn">
-            <i class="ri-user-settings-line"></i>
-            Skills
-          </a>
-
-        </div>
-
-        <div class="section-content">
-
-          <div class="resume-tab-content education active">
-            <div class="resume-line"></div>
-
-            <div class="resume-items">
-
-              <div class="item item-left">
-                <div class="info">
-                  <i class="ri-graduation-cap-fill"></i>
-
-                  <div>
-                    <h5>Diploma In Graphic Design</h5>
-
-                    <p>New York - University</p>
-
-                    <span>2012-2013</span>
-
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="item item-right">
-                <div class="info">
-                  <i class="ri-graduation-cap-fill"></i>
-
-                  <div>
-                    <h5>Diploma In Web Design</h5>
-
-                    <p>United State - University</p>
-
-                    <span>2014-2015</span>
-
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="item item-left">
-                <div class="info">
-                  <i class="ri-graduation-cap-fill"></i>
-
-                  <div>
-                    <h5>Diploma In UI/UX Design</h5>
-
-                    <p>Canada- University</p>
-
-                    <span>2015-2016</span>
-
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="item item-right">
-                <div class="info">
-                  <i class="ri-graduation-cap-fill"></i>
-
-                  <div>
-                    <h5>Masters In Web Design</h5>
-
-                    <p>United York - University</p>
-
-                    <span>2017-2018</span>
-
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-
-
-          <div class="resume-tab-content experience ">
-
-            <div class="resume-line"></div>
-            
-            <div class="resume-items">
-
-              <div class="item item-left">
-                <div class="info">
-                  <i class="ri-sparkling-line"></i>
-
-                  <div>
-                    <h5> Graphic Design</h5>
-
-                    <p>Bluebase Designs</p>
-
-                    <span>2018 - 2019</span>
-
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="item item-right">
-                <div class="info">
-                  <i class="ri-sparkling-line"></i>
-
-                  <div>
-                    <h5>Front-End Developer</h5>
-
-                    <p>Larsen & Turbro</p>
-
-                    <span>2018 - 2022</span>
-
-                  </div>
-                </div>
-              </div>
-
-              <div class="item item-left">
-                <div class="info">
-                  <i class="ri-sparkling-line"></i>
-
-                  <div>
-                    <h5> Front-End Developer</h5>
-
-                    <p>Envato Market</p>
-
-                    <span>2022 - Present</span>
-
-                  </div>
-                </div>
-              </div>
-
-
-
-            </div>
-          </div>
-
-
-          <div class="resume-tab-content personal-skills ">
-
-            <div class="skill-container">
-
-              <div class="skill-card">
-
-                <div class="skill-title">
-                  <i class="ri-macbook-fill"></i>
-
-                  <span>Front-End Developer</span>
-
-                </div>
-
-                <div class="skill-category">
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>HTML</h5>
-                      <span>Advance</span>
-
-                    </div>
-                  </div>
-
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>CSS</h5>
-                      <span>Advance</span>
-
-                    </div>
-                  </div>
-
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>JavaScript</h5>
-                      <span>Intermediate</span>
-
-                    </div>
-                  </div>
-
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>React</h5>
-                      <span>Beginner</span>
-
-                    </div>
-                  </div>
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>Bootstrap</h5>
-                      <span>Basic</span>
-
-                    </div>
-                  </div>
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>JQuery</h5>
-                      <span>Basic</span>
-
-                    </div>
-                  </div>
-
-                </div>
-
-
-              </div>
-
-
-
-              <!------BACKEND PROJECT -->
-
-              <div class="skill-card">
-
-                <div class="skill-title">
-                  <i class="ri-server-fill"></i>
-
-                  <span>BACKEND</span>
-
-                </div>
-
-                <div class="skill-category">
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>PHP</h5>
-                      <span>Intermediate</span>
-
-                    </div>
-                  </div>
-
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>Python</h5>
-                      <span>Bacis</span>
-
-                    </div>
-                  </div>
-
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>MySQL</h5>
-                      <span>Intermediate</span>
-
-                    </div>
-                  </div>
-
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>Node JS</h5>
-                      <span>Basic</span>
-
-                    </div>
-                  </div>
-
-                  <div class="skill">
-
-                    <i class="ri-checkbox-circle-fill"></i>
-
-                    <div class="skill-info">
-                      <h5>Firebase</h5>
-                      <span>Intermediate</span>
-
-                    </div>
-                  </div>
-
-            
-
-                </div>
-
-
-              </div>
-
-
-
-            </div>
-           
-          </div>
-
-
-        </div>
-
-
-
-      </div>
-    </div>
-  </section>
-
-  <!--========== Services ==========-->
-
-  <section class="sue-section nav-menu-section" id="service">
-
-    <div class="sue-container sue-sub-container">
-
-      <div class="sue-wrapper">
-
-        <div class="section-title">
-
-          <h3>Services</h3>
-
-          <p>What I Provide</p>
-
-        </div>
-
-
-        <div class="section-content">
-
-          <div class="service-container">
-
-            <!----Modal 1-->
-
-            <div class="card-with-modal">
-
-              <div class="service-card">
-
-                <div class="service-info">
-
-                  <i class="ri-pencil-ruler-2-fill service-icon"></i>
-
-                  <h4>Web Design</h4>
-
-                <a class="service-see-more">
-                  See More 
-                  <i class="ri-arrow-right-up-line"></i>
+    <!--========== Home ==========-->
+
+    <section class="sue-section nav-menu-section" id="home">
+      <div class="sue-container home-container">
+        <div class="sue-wrapper">
+          <div class="home-social">
+            <span>Follow On</span>
+
+            <div class="social-line"></div>
+
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="ri-facebook-circle-fill"></i>
                 </a>
-                </div>
-              </div>
+              </li>
 
-              <div class="service-modal-backdrop">
-
-                <div class="service-modal">
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-
-                    <div class="modal-title">
-                      <h3>Web Design</h3>
-
-                      <p>With 7 years experience as a professional web designer, I have acquired the skills and knowledge necessary to make your project a success</p>
-
-                    </div>
-
-                    <h4>What I Provide</h4>
-
-                    <ul class="my-services">
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Design & Build A Custom Website</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Responsive Website Design</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Search Engin Optimization(SEO)</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Website Hosting</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Websit Maintaince And Support</p></li>
-
-          
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!----Modal 2-->
-            <div class="card-with-modal">
-
-              <div class="service-card">
-
-                <div class="service-info">
-
-                  <i class="ri-image-2-line service-icon"></i>
-
-                  <h4>Graphic Design</h4>
-
-                <a  class="service-see-more">
-                  See More 
-                  <i class="ri-arrow-right-up-line"></i>
+              <li>
+                <a href="#">
+                  <i class="ri-twitter-x-line"></i>
                 </a>
-                </div>
-              </div>
+              </li>
 
-
-              <div class="service-modal-backdrop">
-
-                <div class="service-modal">
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-
-                    <div class="modal-title">
-                      <h3>Graphice Design</h3>
-
-                      <p>With 7 years experience as a professional web designer, I have acquired the skills and knowledge necessary to make your project a success</p>
-
-                    </div>
-
-                    <h4>What I Provide</h4>
-
-                    <ul class="my-services">
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Logos and Branding</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Website/blog Design</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Photoshop Design</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Presentation Design</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Print Design</p></li>
-          
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <!----Modal 3-->
-            <div class="card-with-modal">
-
-              <div class="service-card">
-
-                <div class="service-info">
-
-                  <i class="ri-align-item-left-fill service-icon"></i>
-
-                  <h4>UI/UX Design</h4>
-
-                <a  class="service-see-more">
-                  See More 
-                  <i class="ri-arrow-right-up-line"></i>
+              <li>
+                <a href="#">
+                  <i class="ri-linkedin-fill"></i>
                 </a>
-                </div>
-              </div>
+              </li>
+            </ul>
+          </div>
 
-
-              <div class="service-modal-backdrop">
-
-                <div class="service-modal">
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-
-                    <div class="modal-title">
-                      <h3>UI/UX Design</h3>
-
-                      <p>With 7 years experience as a professional web designer, I have acquired the skills and knowledge necessary to make your project a success</p>
-
-                    </div>
-
-                    <h4>What I Provide</h4>
-
-                    <ul class="my-services">
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Conduct User Research</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Create User Persons</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Design Wireframes</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>Build Prototype</p></li>
-                      <li><i class="ri-checkbox-circle-fill"></i><p>User Testing</p></li>
-          
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
+          <div class="avatar-container">
+            <div class="sue-main-btn fill-btn hire-btn-01">
+              <a href="#"> Hire Me <i class="ri-user-follow-line"></i> </a>
             </div>
 
-            
+            <div class="avatar-img">
+              <img src="./assets/portrait_1.png" alt="image" />
+            </div>
 
+            <div class="avatar-info">
+              <div class="text-content">
+                <h4 class="hello-text">Hello, I'm</h4>
 
+                <h1 class="my-name">Lawrence .C</h1>
+                <p class="what-i-do">A web Designer & Developer</p>
+              </div>
+
+              <div class="sue-main-btn fill-btn hire-btn-02">
+                <a href="#"> Hire Me <i class="ri-user-follow-line"></i> </a>
+              </div>
+            </div>
+          </div>
+
+          <a href="#about" class="home-scroll-btn">
+            <i class="ri-mouse-line mouse-icon"></i>
+            <div>Scroll Down</div>
+            <i class="ri-arrow-down-double-line arrow-icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--========== About Me ==========-->
+
+    <section class="sue-section nav-menu-section" id="about">
+      <div class="sue-container sub-sub-container">
+        <div class="sue-wrapper">
+          <div class="section-title about-title">
+            <h3>About Me</h3>
+            <p>What i do</p>
+          </div>
+
+          <div class="section-content">
+            <div class="about-img">
+              <img src="./assets/portrait_1.png" alt="about me" />
+            </div>
+
+            <div class="about-details">
+              <div class="about-info">
+                <h4 class="iam">I'm a web Designer & Developer</h4>
+
+                <p class="about-description">
+                  I'm a Web Developer with a passion for crafting clean,
+                  intuitive, and engaging digital experiences. My focus lies in
+                  Web Design, UI/UX, and Visual Development, blending aesthetics
+                  with functionality to create designs that not only look good
+                  but work beautifully.
+                  <br />
+                  <br />
+                  With 3+ years of professional experience, I’ve had the
+                  opportunity to collaborate across a variety of industries —
+                  from startups to established brands — which has shaped a
+                  flexible, user-first approach to design.
+                  <br />
+                  <br />
+                  Whether you’re building something new or refining an existing
+                  website, I’m here to help bring your vision to life — pixel by
+                  pixel.
+                </p>
+              </div>
+
+              <div class="pro-list">
+                <div class="pro-card">
+                  <span>3+</span>
+
+                  <p>Years of Experience</p>
+                </div>
+
+                <div class="pro-card">
+                  <span>129+</span>
+
+                  <p>Completed Projects</p>
+                </div>
+
+                <div class="pro-card">
+                  <span>73+</span>
+
+                  <p>Satisfied Customers</p>
+                </div>
+              </div>
+
+              <div class="about-buttons">
+                <div class="sue-main-btn fill-btn">
+                  <a href="#">Hire Me <i class="ri-user-follow-line"></i></a>
+                </div>
+
+                <div class="sue-main-btn border-btn">
+                  <a href="#" download>Resume CV</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
+    <!--========== My Resume ==========-->
 
+    <section class="sue-section nav-menu-section" id="resume">
+      <div class="sue-container sub-sub-container">
+        <div class="sue-wrapper">
+          <div class="section-title">
+            <h3>My Resume</h3>
 
-    </div>
-  </section>
+            <p>Combination of Skills & Experiences</p>
+          </div>
 
-  <!--========== Portfolio ==========-->
+          <div class="resume-tabs">
+            <a class="tab-btn active">
+              <i class="ri-graduation-cap-line"></i>
+              Education
+            </a>
 
+            <a class="tab-btn">
+              <i class="ri-sparkling-line"></i>
+              Experience
+            </a>
 
-  <section class="sue-section nav-menu-section" id="portfolio">
+            <a class="tab-btn">
+              <i class="ri-user-settings-line"></i>
+              Skills
+            </a>
+          </div>
 
-    <div class="sue-container sub-sub-container">
+          <div class="section-content">
+            <div class="resume-tab-content education active">
+              <div class="resume-line"></div>
 
-      <div class="sue-wrapper">
+              <div class="resume-items">
+                <div class="item item-left">
+                  <div class="info">
+                    <i class="ri-graduation-cap-fill"></i>
 
-        <div class="section-title">
+                    <div>
+                      <h5>Certificate in Responsive Web Design</h5>
 
-          <h3>Portfolio</h3>
+                      <p>freeCodeCamp</p>
 
-          <p>My Creative Work</p>
-
-        </div>
-
-
-        <div class="portfolio-tabs">
-          <a class="tab-btn active" data-filter="all" >ALL</a>
-          <a class="tab-btn" data-filter="Web-design" >Web Design</a>
-          <a class="tab-btn" data-filter="ui-design" >UX/UI Design</a>
-          <a class="tab-btn" data-filter="photoshop" >Photoshop</a>
-          <a class="tab-btn" data-filter="template" >Template</a>
-        </div>
-
-
-        <div class="section-content">
-
-          <div class="portfolio-container">
-
-
-            <!---MODEL 01-->
-            <div class="card-with-modal Web-design">
-
-              <div class="portfolio-card">
-
-                <div class="card-img">
-                  <img src="./assets/project1.jpg" alt="project1">
-                </div>
-
-                <div class="card-info">
-
-                  <span>Web Design</span>
-                  <h4>Dynamic</h4>
-
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/project1.jpg" alt="project 1">
+                      <span>2012-2013</span>
                     </div>
+                  </div>
+                </div>
 
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                <div class="item item-right">
+                  <div class="info">
+                    <i class="ri-graduation-cap-fill"></i>
 
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+                    <div>
+                      <h5>Google UX Design Certificate</h5>
 
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+                      <p>Coursera / Google</p>
 
+                      <span>2014-2015</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item item-left">
+                  <div class="info">
+                    <i class="ri-graduation-cap-fill"></i>
+
+                    <div>
+                      <h5>Diploma In UI/UX Design</h5>
+
+                      <p>Coursera</p>
+
+                      <span>2015-2016</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item item-right">
+                  <div class="info">
+                    <i class="ri-graduation-cap-fill"></i>
+
+                    <div>
+                      <h5>JavaScript Algorithms</h5>
+
+                      <p>freeCodeCamp</p>
+
+                      <span>2017-2018</span>
+                    </div>
                   </div>
                 </div>
               </div>
-
-
             </div>
 
+            <div class="resume-tab-content experience">
+              <div class="resume-line"></div>
 
-            <!-----MODAL 02-->
-            <div class="card-with-modal ui-design">
+              <div class="resume-items">
+                <div class="item item-left">
+                  <div class="info">
+                    <i class="ri-sparkling-line"></i>
 
-              <div class="portfolio-card">
+                    <div>
+                      <h5>Graphic Designer</h5>
 
-                <div class="card-img">
-                  <img src="./assets/project2.jpg" alt="project1">
-                </div>
+                      <p>Bluebase Designs</p>
 
-                <div class="card-info">
-
-                  <span>UI/UX Design</span>
-                  <h4>Submarine</h4>
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/project2.jpg" alt="project 1">
+                      <span>2018</span>
                     </div>
+                  </div>
+                </div>
 
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                <div class="item item-right">
+                  <div class="info">
+                    <i class="ri-sparkling-line"></i>
 
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+                    <div>
+                      <h5>Front-End Developer</h5>
 
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+                      <p>Larsen & Turbro</p>
 
+                      <span>2022</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item item-left">
+                  <div class="info">
+                    <i class="ri-sparkling-line"></i>
+
+                    <div>
+                      <h5>Front-End Developer</h5>
+
+                      <p>Belt Bootcamp</p>
+
+                      <span>2024</span>
+                    </div>
                   </div>
                 </div>
               </div>
-
-
             </div>
 
+            <div class="resume-tab-content personal-skills">
+              <div class="skill-container">
+                <!------FRONTEND PROJECT -->
 
-            <!-----MODAL 03-->
-            <div class="card-with-modal template">
+                <div class="skill-card">
+                  <div class="skill-title">
+                    <i class="ri-macbook-fill"></i>
 
-              <div class="portfolio-card">
+                    <span>Front-End Developer</span>
+                  </div>
 
-                <div class="card-img">
-                  <img src="./assets/project3.jpg" alt="project3">
-                </div>
+                  <div class="skill-category">
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
 
-                <div class="card-info">
-
-                  <span>Template</span>
-                  <h4>Seven Studio</h4>
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/project3.jpg" alt="project 1">
+                      <div class="skill-info">
+                        <h5>HTML</h5>
+                        <span>Advance</span>
+                      </div>
                     </div>
 
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
 
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+                      <div class="skill-info">
+                        <h5>CSS</h5>
+                        <span>Advance</span>
+                      </div>
+                    </div>
 
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
 
+                      <div class="skill-info">
+                        <h5>JavaScript</h5>
+                        <span>Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+
+                      <div class="skill-info">
+                        <h5>React</h5>
+                        <span>Beginner</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+
+                      <div class="skill-info">
+                        <h5>Bootstrap</h5>
+                        <span>Basic</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+
+                      <div class="skill-info">
+                        <h5>Figma</h5>
+                        <span>Intermidiate</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!------BACKEND PROJECT -->
+
+                <div class="skill-card">
+                  <div class="skill-title">
+                    <i class="ri-server-fill"></i>
+
+                    <span>BACKEND</span>
+                  </div>
+
+                  <div class="skill-category">
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+
+                      <div class="skill-info">
+                        <h5>PHP</h5>
+                        <span>Basic</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+
+                      <div class="skill-info">
+                        <h5>Python</h5>
+                        <span>Bacis</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+
+                      <div class="skill-info">
+                        <h5>MySQL</h5>
+                        <span>Beginner</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+
+                      <div class="skill-info">
+                        <h5>Node JS</h5>
+                        <span>Basic</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+
+                      <div class="skill-info">
+                        <h5>Firebase</h5>
+                        <span>Basic</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-
-
             </div>
-
-
-            <!-----MODAL 04-->
-            <div class="card-with-modal photoshop">
-
-              <div class="portfolio-card">
-
-                <div class="card-img">
-                  <img src="./assets/project4.jpg" alt="project4">
-                </div>
-
-                <div class="card-info">
-
-                  <span>Photoshop</span>
-                  <h4>Raven Studio</h4>
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/project4.jpg" alt="project 1">
-                    </div>
-
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-
-
-            <!-----MODAL 05-->
-            <div class="card-with-modal Web-design">
-
-              <div class="portfolio-card">
-
-                <div class="card-img">
-                  <img src="./assets/project5.jpg" alt="project5">
-                </div>
-
-                <div class="card-info">
-
-                  <span>Web Design</span>
-                  <h4>Pro Studio</h4>
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/project5.jpg" alt="project 1">
-                    </div>
-
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-
-
-
-            <!-----MODAL 06-->
-            <div class="card-with-modal template">
-
-              <div class="portfolio-card">
-
-                <div class="card-img">
-                  <img src="./assets/project6.jpg" alt="project6">
-                </div>
-
-                <div class="card-info">
-
-                  <span>Template</span>
-                  <h4>Dynamic</h4>
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/project6.jpg" alt="project 1">
-                    </div>
-
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-
-
-
-            <!-----MODAL 07-->
-
-            <div class="card-with-modal ui-design">
-
-              <div class="portfolio-card">
-
-                <div class="card-img">
-                  <img src="./assets/project7.jpg" alt="project7">
-                </div>
-
-                <div class="card-info">
-
-                  <span>Ui/UX Design</span>
-                  <h4>Color Seven</h4>
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/project7.jpg" alt="project 1">
-                    </div>
-
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-
-
-
-            <!-----MODAL 08-->
-            <div class="card-with-modal  Web-design">
-
-              <div class="portfolio-card">
-
-                <div class="card-img">
-                  <img src="./assets/project8.jpg" alt="project1">
-                </div>
-
-                <div class="card-info">
-
-                  <span>Web Design</span>
-                  <h4>Grid Studio</h4>
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-
-
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/project8.jpg" alt="project 1">
-                    </div>
-
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-
-
-            <!-----MODAL 09-->
-            <div class="card-with-modal  Web-design">
-
-              <div class="portfolio-card">
-
-                <div class="card-img">
-                  <img src="./assets/service-1.jpeg" alt="service1">
-                </div>
-
-                <div class="card-info">
-
-                  <span>Web Design</span>
-                  <h4>Dynamic</h4>
-                  <i class="ri-arrow-right-up-line"></i>
-                </div>
-
-              </div>
-
-
-              <div class="portfolio-modal-backdrop">
-                <div class="portfolio-modal">
-
-                  <a  class="modal-close-btn">
-                    <i class="ri-close-line"></i>
-                  </a>
-
-                  <div class="modal-content">
-                    <div class="modal-img">
-                      <img src="./assets/service-1.jpeg" alt="project 1">
-                    </div>
-
-                    <h4 class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam amet id. Mollitia consequatur nulla, quia quod inventore neque voluptates excepturi deserunt earum distinctio magni odit ab, soluta blanditiis omnis qui. Fuga delectus facere voluptatum quod doloremque ad natus architecto eaque ab dolorum.</p>
-
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-
-
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="testimonials">
-        <div class="section-title">
-          <h3>Awsome Clients</h3>
-          <p>Words From My Clients</p>
-        </div>
+    <!--========== Services ==========-->
 
+    <section class="sue-section nav-menu-section" id="service">
+      <div class="sue-container sue-sub-container">
+        <div class="sue-wrapper">
+          <div class="section-title">
+            <h3>Services</h3>
 
-        <div class="section-content">
-          <div class="swiper sue-client-swiper">
-            <div class="swiper-wrapper">
-
-              <div class="swiper-slide">
-
-                <div class="client-img">
-                  <img src="./assets/avatar2.jpg" alt="">
-                </div>
-
-                <div class="client-details">
-
-                  <h3>Aria Collins</h3>
-                  <span>Marketing manager</span>
-                  <p>Hi, am Aria Collins and i am a designer & web developer who dream of making the world a better place by products. I am also very active for international clients</p>
-                  
-                </div>
-
-              </div>
-
-
-
-              <div class="swiper-slide">
-
-                <div class="client-img">
-                  <img src="./assets/avatar3.jpg" alt="">
-                </div>
-
-                <div class="client-details">
-
-                  <h3>Aria Collins</h3>
-                  <span>Marketing manager</span>
-                  <p>Hi, am Aria Collins and i am a designer & web developer who dream of making the world a better place by products. I am also very active for international clients</p>
-                  
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-
-                <div class="client-img">
-                  <img src="./assets/avatar4.jpg" alt="">
-                </div>
-
-                <div class="client-details">
-
-                  <h3>Aria Collins</h3>
-                  <span>Marketing manager</span>
-                  <p>Hi, am Aria Collins and i am a designer & web developer who dream of making the world a better place by products. I am also very active for international clients</p>
-                  
-                </div>
-
-              </div>
-
-
-              <div class="swiper-slide">
-
-                <div class="client-img">
-                  <img src="./assets/avatar5.jpg" alt="">
-                </div>
-
-                <div class="client-details">
-
-                  <h3>Aria Collins</h3>
-                  <span>Marketing manager</span>
-                  <p>Hi, am Aria Collins and i am a designer & web developer who dream of making the world a better place by products. I am also very active for international clients</p>
-                  
-                </div>
-
-              </div>
-
-
-              <div class="swiper-slide">
-
-                <div class="client-img">
-                  <img src="./assets/avatar6.jpg" alt="">
-                </div>
-
-                <div class="client-details">
-
-                  <h3>Aria Collins</h3>
-                  <span>Marketing manager</span>
-                  <p>Hi, am Aria Collins and i am a designer & web developer who dream of making the world a better place by products. I am also very active for international clients</p>
-                  
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-
-                <div class="client-img">
-                  <img src="./assets/avatar7.jpg" alt="">
-                </div>
-
-                <div class="client-details">
-
-                  <h3>Aria Collins</h3>
-                  <span>Marketing manager</span>
-                  <p>Hi, am Aria Collins and i am a designer & web developer who dream of making the world a better place by products. I am also very active for international clients</p>
-                  
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-
-                <div class="client-img">
-                  <img src="./assets/avatar10.jpg" alt="">
-                </div>
-
-                <div class="client-details">
-
-                  <h3>Aria Collins</h3>
-                  <span>Marketing manager</span>
-                  <p>Hi, am Aria Collins and i am a designer & web developer who dream of making the world a better place by products. I am also very active for international clients</p>
-                  
-                </div>
-
-              </div>
-            
-            </div>
-            <div class="swiper-button-next">
-              <i class="ri-arrow-right-s-line"></i>
-            </div>
-
-            <div class="swiper-button-prev">
-              <i class="ri-arrow-left-s-line"></i>
-            </div>
-
-            <div class="swiper-pagination"></div>
+            <p>What I Provide</p>
           </div>
-        </div>
 
-      </div>
-
-    </div>
-  </section>
-
-  <!--========== Contact Me ==========-->
-
-  <section class="sue-section nav-menu-section" id="contact">
-
-    <div class="sue-container sue-sub-container">
-
-      <div class="sue-wrapper">
-
-        <div class="section-title">
-
-          <h3>Contact me</h3>
-          <p>Get In Touch</p>
-
-        </div>
-
-        <div class="section-content">
-
-          <div class="contact-container">
-
-            <div class="contact-info">
-              <h3>Contact Info</h3>
-
-              <ul class="contact-details">
-
-                <li class="contact-item">
-                  <div class="contact-icon">
-                    <i class="ri-mail-send-fill"></i>
-                  </div>
-
-                  <div class="contact-method">
-                    <span>E-mail</span>
-                    <h4>Infor@sue.ayers.com</h4>
+          <div class="section-content">
 
 
+            <div class="service-container">
 
-                    <a href="mailto:Infor@sue.ayers.com<" target="_blank">
-                      <span>
-                        Send 
-                        <i class="ri-arrow-right-up-line"></i>
-                      </span>
+              <!----Modal Card  1-->
+
+              <div class="card-with-modal">
+
+                <div class="service-card">
+                  <div class="service-info">
+                    <i class="ri-pencil-ruler-2-fill service-icon"></i>
+
+                    <h4>Web Design</h4>
+
+                    <a class="service-see-more">
+                      See More
+                      <i class="ri-arrow-right-up-line"></i>
                     </a>
-              
                   </div>
-                </li>
-
-
-
-                <li class="contact-item">
-                  <div class="contact-icon">
-                    <i class="ri-whatsapp-line"></i>
-                  </div>
-
-                  <div class="contact-method">
-                    <span>WhatsApp</span>
-                    <h4>+234 8069282207</h4>
-
-
-                    <a  href="https://wa.me/2348069282207?text=Hello%20What%20do%20you%20have%20in%20mind" 
-                    target="_blank" 
-                    rel="noopener noreferrer">
-                      <span>
-                        Send <i class="ri-arrow-right-up-line"></i>
-                      </span>
-                    </a>
-              
-                  </div>
-                </li>
-
-
-                <li class="contact-item">
-                  <div class="contact-icon">
-                    <i class="ri-messenger-fill"></i>
-                  </div>
-
-                  <div class="contact-method">
-                    <span>Messager</span>
-                    <h4>sue Ayers fb</h4>
-                    <a href="http://m.me/web2dev?text=Hello%20and%20Welcom" target="_blank">
-                      <span>
-                        Send <i class="ri-arrow-right-up-line"></i>
-                      </span>
-                    </a>
-              
-                  </div>
-                </li>
-
-              </ul>
-
-              <h3>Social Info</h3>
-
-              <ul class="contact-social-links">
-
-                <li>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="ri-twitter-x-fill"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="ri-linkedin-fill"></i></a>
-                </li>
-            
-              </ul>
-
-
-            </div>
-
-            <div class="contact-form-body">
-
-              <h2>Let's Work <span>Together.</span></h2>
-
-              <p>Please fill out the form on this section to contact me</p>
-
-              <form action="" method="post" id="sue-contact-form">
-
-                <div class="input-group">
-                  <input type="text" name="full-name" placeholder="Name" required>
-                </div>
-
-                <div class="input-group">
-                  <input type="text" name="email" placeholder="Email" required>
-                </div>
-
-                <div class="input-group">
-                  <input type="text" name="subject" placeholder="Your subject" required>
-                </div>
-
-                <div class="input-group">
-                 <textarea name="message" id="" placeholder="Your Message" required></textarea>
-                </div>
-
-
-                <div class="input-group send-message">
-                 <button class="sue-main-btn fill-btn submit-btn" name="submit" type="submit">Send Message</button>
-
-                 <div class="sue-contact-form-alert">
-                  
-                 </div>
-
                 </div>
 
                 
+                <div class="service-modal-backdrop">
+                  <div class="service-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+    
+                    <div class="modal-content">
+                      <div class="modal-title">
+                        <h3>Web Design</h3>
+    
+                        <p>
+                          With 7 years experience as a professional web
+                          designer, I have acquired the skills and knowledge
+                          necessary to make your project a success
+                        </p>
+                      </div>
+    
+                      <h4>What I Provide</h4>
+    
+                      <ul class="my-services">
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Design & Build A Custom Website</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Responsive Website Design</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Search Engin Optimization(SEO)</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Website Hosting</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Websit Maintaince And Support</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-              </form>
-            </div>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+              <!----Modal Card 2------>
+              <div class="card-with-modal">
 
-  <!--========== Footer ==========-->
+                <div class="service-card">
+                  <div class="service-info">
+                    <i class="ri-image-2-line service-icon"></i>
 
-  <footer class="sue-footer">
-    <div class="sue-container">
-      <div class="inner">
-        <div class="sue-logo">
-          <a href="#home">
-            <span>Sue</span>
-          </a>
-        </div>
+                    <h4>Graphic Design</h4>
 
-        <ul class="footer-menu">
-
-          <li class="menu-item"><a href="#about">About</a></li>
-
-          <li class="menu-item"><a href="#resume">Resume</a></li>
-
-          <li class="menu-item"><a href="#service">Service</a></li>
-
-          <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
-
-        </ul>
-
-        <p class="copy-right">Alright reserved by <a href="">coding snow</a></p>
-      </div>
-    </div>
-  </footer>
+                    <a class="service-see-more">
+                      See More
+                      <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                  </div>
+                </div>
 
 
-  <!--========== Swiper JS ==========-->
-  <script src="./swiper-bundle.min.js"></script>
-
-  <!--========== EmailJS ==========-->
-
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-  <!--========== Main javascript ==========-->
-
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="./script.js"></script>
-
-</body>
-</html>
+                <div class="service-modal-backdrop">
+                  <div class="service-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
       
+                    <div class="modal-content">
+                      <div class="modal-title">
+                        <h3>Graphice Design</h3>
+      
+                        <p>
+                          With 7 years experience as a professional web designer, I
+                          have acquired the skills and knowledge necessary to make
+                          your project a success
+                        </p>
+                      </div>
+      
+                      <h4>What I Provide</h4>
+      
+                      <ul class="my-services">
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Logos and Branding</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Website/blog Design</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Photoshop Design</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Presentation Design</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Print Design</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+              <!----Modal Card 3-->
+               <div class="card-with-modal">
+                <div class="service-card">
+                  <div class="service-info">
+                    <i class="ri-align-item-left-fill service-icon"></i>
+
+                    <h4>UI/UX Design</h4>
+
+                    <a class="service-see-more">
+                      See More
+                      <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="service-modal-backdrop">
+                  <div class="service-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+      
+                    <div class="modal-content">
+                      <div class="modal-title">
+                        <h3>UI/UX Design</h3>
+      
+                        <p>
+                          With 7 years experience as a professional web designer, I
+                          have acquired the skills and knowledge necessary to make
+                          your project a success
+                        </p>
+                      </div>
+      
+                      <h4>What I Provide</h4>
+      
+                      <ul class="my-services">
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Conduct User Research</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Create User Persons</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Design Wireframes</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Build Prototype</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>User Testing</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+      
+
+              </div>
+
+              
+            </div>
+
+            
+
+
+          </div>
+
+          
+
+        </div>
+      </div>
+    </section>
+
+    <!--========== Portfolio ==========-->
+
+    <section class="sue-section nav-menu-section" id="portfolio">
+      <div class="sue-container sub-sub-container">
+        <div class="sue-wrapper">
+          <div class="section-title">
+            <h3>Portfolio</h3>
+
+            <p>My Creative Work</p>
+          </div>
+
+          <div class="portfolio-tabs">
+            <a class="tab-btn active" data-filter="all">ALL</a>
+            <a class="tab-btn" data-filter="Web-design">Web Design</a>
+            <a class="tab-btn" data-filter="ui-design">UX/UI Design</a>
+            <a class="tab-btn" data-filter="photoshop">Photoshop</a>
+            <a class="tab-btn" data-filter="template">Template</a>
+          </div>
+
+          <div class="section-content">
+            <div class="portfolio-container">
+              <!---MODEL 01-->
+              <div class="card-with-modal Web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/project1.jpg" alt="project1" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Dynamic</h4>
+
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/project1.jpg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----MODAL 02-->
+              <div class="card-with-modal ui-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/project2.jpg" alt="project1" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>UI/UX Design</span>
+                    <h4>Submarine</h4>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/project2.jpg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----MODAL 03-->
+              <div class="card-with-modal template">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/project3.jpg" alt="project3" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>Template</span>
+                    <h4>Seven Studio</h4>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/project3.jpg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----MODAL 04-->
+              <div class="card-with-modal photoshop">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/project4.jpg" alt="project4" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>Photoshop</span>
+                    <h4>Raven Studio</h4>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/project4.jpg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----MODAL 05-->
+              <div class="card-with-modal Web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/project5.jpg" alt="project5" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Pro Studio</h4>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/project5.jpg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----MODAL 06-->
+              <div class="card-with-modal template">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/project6.jpg" alt="project6" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>Template</span>
+                    <h4>Dynamic</h4>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/project6.jpg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----MODAL 07-->
+
+              <div class="card-with-modal ui-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/project7.jpg" alt="project7" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>Ui/UX Design</span>
+                    <h4>Color Seven</h4>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/project7.jpg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----MODAL 08-->
+              <div class="card-with-modal Web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/project8.jpg" alt="project1" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Grid Studio</h4>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/project8.jpg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-----MODAL 09-->
+              <div class="card-with-modal Web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="./assets/service-1.jpeg" alt="service1" />
+                  </div>
+
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Dynamic</h4>
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn">
+                      <i class="ri-close-line"></i>
+                    </a>
+
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img src="./assets/service-1.jpeg" alt="project 1" />
+                      </div>
+
+                      <h4 class="modal-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h4>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+
+                      <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque sequi saepe culpa ipsa quaerat ut, dolorem magnam
+                        amet id. Mollitia consequatur nulla, quia quod inventore
+                        neque voluptates excepturi deserunt earum distinctio
+                        magni odit ab, soluta blanditiis omnis qui. Fuga
+                        delectus facere voluptatum quod doloremque ad natus
+                        architecto eaque ab dolorum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials">
+          <div class="section-title">
+            <h3>Awsome Clients</h3>
+            <p>Words From My Clients</p>
+          </div>
+
+          <div class="section-content">
+            <div class="swiper sue-client-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="./assets/avatar2.jpg" alt="" />
+                  </div>
+
+                  <div class="client-details">
+                    <h3>Aria Collins</h3>
+                    <span>Marketing manager</span>
+                    <p>
+                      Hi, am Aria Collins and i am a designer & web developer
+                      who dream of making the world a better place by products.
+                      I am also very active for international clients
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="./assets/avatar3.jpg" alt="" />
+                  </div>
+
+                  <div class="client-details">
+                    <h3>Aria Collins</h3>
+                    <span>Marketing manager</span>
+                    <p>
+                      Hi, am Aria Collins and i am a designer & web developer
+                      who dream of making the world a better place by products.
+                      I am also very active for international clients
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="./assets/avatar4.jpg" alt="" />
+                  </div>
+
+                  <div class="client-details">
+                    <h3>Aria Collins</h3>
+                    <span>Marketing manager</span>
+                    <p>
+                      Hi, am Aria Collins and i am a designer & web developer
+                      who dream of making the world a better place by products.
+                      I am also very active for international clients
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="./assets/avatar5.jpg" alt="" />
+                  </div>
+
+                  <div class="client-details">
+                    <h3>Aria Collins</h3>
+                    <span>Marketing manager</span>
+                    <p>
+                      Hi, am Aria Collins and i am a designer & web developer
+                      who dream of making the world a better place by products.
+                      I am also very active for international clients
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="./assets/avatar6.jpg" alt="" />
+                  </div>
+
+                  <div class="client-details">
+                    <h3>Aria Collins</h3>
+                    <span>Marketing manager</span>
+                    <p>
+                      Hi, am Aria Collins and i am a designer & web developer
+                      who dream of making the world a better place by products.
+                      I am also very active for international clients
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="./assets/avatar7.jpg" alt="" />
+                  </div>
+
+                  <div class="client-details">
+                    <h3>Aria Collins</h3>
+                    <span>Marketing manager</span>
+                    <p>
+                      Hi, am Aria Collins and i am a designer & web developer
+                      who dream of making the world a better place by products.
+                      I am also very active for international clients
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="./assets/avatar10.jpg" alt="" />
+                  </div>
+
+                  <div class="client-details">
+                    <h3>Aria Collins</h3>
+                    <span>Marketing manager</span>
+                    <p>
+                      Hi, am Aria Collins and i am a designer & web developer
+                      who dream of making the world a better place by products.
+                      I am also very active for international clients
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <i class="ri-arrow-right-s-line"></i>
+              </div>
+
+              <div class="swiper-button-prev">
+                <i class="ri-arrow-left-s-line"></i>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========== Contact Me ==========-->
+
+    <section class="sue-section nav-menu-section" id="contact">
+      <div class="sue-container sue-sub-container">
+        <div class="sue-wrapper">
+          <div class="section-title">
+            <h3>Contact me</h3>
+            <p>Get In Touch</p>
+          </div>
+
+          <div class="section-content">
+            <div class="contact-container">
+              <div class="contact-info">
+                <h3>Contact Info</h3>
+
+                <ul class="contact-details">
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <i class="ri-mail-send-fill"></i>
+                    </div>
+
+                    <div class="contact-method">
+                      <span>E-mail</span>
+                      <h4>Infor@sue.ayers.com</h4>
+
+                      <a href="mailto:Infor@sue.ayers.com<" target="_blank">
+                        <span>
+                          Send
+                          <i class="ri-arrow-right-up-line"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <i class="ri-whatsapp-line"></i>
+                    </div>
+
+                    <div class="contact-method">
+                      <span>WhatsApp</span>
+                      <h4>+234 8069282207</h4>
+
+                      <a
+                        href="https://wa.me/2348069282207?text=Hello%20What%20do%20you%20have%20in%20mind"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span>
+                          Send <i class="ri-arrow-right-up-line"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <i class="ri-messenger-fill"></i>
+                    </div>
+
+                    <div class="contact-method">
+                      <span>Messager</span>
+                      <h4>sue Ayers fb</h4>
+                      <a
+                        href="http://m.me/web2dev?text=Hello%20and%20Welcom"
+                        target="_blank"
+                      >
+                        <span>
+                          Send <i class="ri-arrow-right-up-line"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+
+                <h3>Social Info</h3>
+
+                <ul class="contact-social-links">
+                  <li>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="ri-twitter-x-fill"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="ri-linkedin-fill"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="contact-form-body">
+                <h2>Let's Work <span>Together.</span></h2>
+
+                <p>Please fill out the form on this section to contact me</p>
+
+                <form action="" method="post" id="sue-contact-form">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="full-name"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Your subject"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <textarea
+                      name="message"
+                      id=""
+                      placeholder="Your Message"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="input-group send-message">
+                    <button
+                      class="sue-main-btn fill-btn submit-btn"
+                      name="submit"
+                      type="submit"
+                    >
+                      Send Message
+                    </button>
+
+                    <div class="sue-contact-form-alert"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========== Footer ==========-->
+
+    <footer class="sue-footer">
+      <div class="sue-container">
+        <div class="inner">
+          <div class="sue-logo">
+            <a href="#home">
+              <span>Sue</span>
+            </a>
+          </div>
+
+          <ul class="footer-menu">
+            <li class="menu-item"><a href="#about">About</a></li>
+
+            <li class="menu-item"><a href="#resume">Resume</a></li>
+
+            <li class="menu-item"><a href="#service">Service</a></li>
+
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+          </ul>
+
+          <p class="copy-right">
+            Alright reserved by <a href="">coding snow</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== Swiper JS ==========-->
+    <script src="./swiper-bundle.min.js"></script>
+
+    <!--========== EmailJS ==========-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--========== Main javascript ==========-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
