@@ -2289,8 +2289,9 @@ overflow: hidden;
 
    
 
-    .sue-logo a span{
-      font-size: var(--h4-font-size);
+    .sue-logo a {
+      font-size: 1.97rem;
+      
     }
 
     .home-container .sue-wrapper{
